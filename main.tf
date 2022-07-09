@@ -2,8 +2,8 @@ terraform {
   backend "azurerm"{
     resource_group_name = "storage-tfstate-rg"
     storage_account_name = "tfstateeastus009"
-    container_name = "terraformdev"
-    key = "terraform.terraformdev"
+    container_name = "terraformdev1"
+    key = "terraform.terraformdev1"
     access_key = "TAc+6gqJganiEHGf/4KcFcyDBc5k2+t3f/bYSWSO8q8FkJNTeF22YL1Xhz7NfEh4bkoArZ2l1EWv+ASt0dL8Zg=="
   }
 }
