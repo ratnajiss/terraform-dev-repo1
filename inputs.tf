@@ -1,25 +1,20 @@
 variable "subscription_id" {
-    type = string
-    default = "049cc0b9-2696-4e70-871b-4366be487c19"
-    description = "IAC subscription id"
-  
+  type = string
+  default ="318d4f61-55aa-474f-8b44-a39891607f82"
+  description="Iacsubscripton_id"
 }
 variable "client_id" {
-    type = string
-    default = "60c8113b-cf92-4820-8024-816bc9d8883f"
-    description = "IAC client id"
-  
+  type = string
+  default ="50d0dc4f-fb64-45bc-81d1-2692048e9746"
+  description="Iacclient_id"
+}
+variable "tenant_id" {
+  type = string
+  default ="eff34334-a764-4b0d-9968-ec33bec86048"
+  description="Iactenant_id"
 }
 variable "client_secret" {
-    type = string
-    default = "WVL8Q~h1RiSToBvKLyNvpyzqbfChNAP9oXZ3jaw5"
-    description = "IAC client secret"
-  
-}
-
-variable "tenant_id" {
-    type = string
-    default = "477cf0a5-266c-4331-8f0a-865f4622d888"
-    description = "IAC tenant id"
-  
+  type = string
+  default ="oz08Q~DwwbNovp81oZ48dvsv5RUGK.4yEl4K1dCf"
+  description="Iacclient_secret"
 }
